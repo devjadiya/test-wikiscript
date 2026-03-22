@@ -1,0 +1,25 @@
+/**
+ * gadget-editNotice.css
+ * ---------------------
+ * Styles for the edit-area notice gadget.
+ *
+ * Safe to deploy to: User:Dev_Jadiya/gadget-editNotice.css
+ * Source: https://github.com/Dev-Jadiya/test-wikiscript
+ * Version: 1.0.0
+ */
+
+#wikiscriptsync-editnotice {
+    background-color: #fef6e7;
+    border: 1px solid #c8a400;
+    border-left: 4px solid #c8a400;
+    border-radius: 2px;
+    padding: 0.5rem 0.875rem;
+    margin-bottom: 0.875rem;
+    font-size: 0.875rem;
+    color: #202122;
+    line-height: 1.6;
+}
+
+#wikiscriptsync-editnotice a {
+    color: #3366cc;
+}

@@ -1,0 +1,62 @@
+/**
+ * gadget-darkToolbar.css
+ * ----------------------
+ * Gives the Wikipedia toolbar (the top navigation bar) a slightly
+ * darker, higher-contrast appearance. A common user preference gadget.
+ *
+ * Only affects the user who installs this to their own CSS page.
+ * Has zero effect sitewide.
+ *
+ * Safe to deploy to: User:Dev_Jadiya/gadget-darkToolbar.css
+ * Source: https://github.com/Dev-Jadiya/test-wikiscript
+ * Version: 1.0.0
+ */
+
+/* ── Vector 2022 skin (current default) ─────────────────────────────────── */
+
+.vector-header {
+    background-color: #1c1c1e;
+    border-bottom: 1px solid #3a3a3c;
+}
+
+.vector-header .vector-header-start,
+.vector-header .vector-header-end {
+    background-color: #1c1c1e;
+}
+
+/* Navigation links in the header */
+.vector-header a,
+.vector-header .cdx-button {
+    color: #e8e8e8;
+}
+
+.vector-header a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Search box */
+.vector-search-box .cdx-text-input__input {
+    background-color: #2c2c2e;
+    border-color: #48484a;
+    color: #e8e8e8;
+}
+
+.vector-search-box .cdx-text-input__input::placeholder {
+    color: #8e8e93;
+}
+
+/* ── Vector legacy skin (fallback) ─────────────────────────────────────── */
+
+#mw-head {
+    background-color: #1c1c1e;
+}
+
+#mw-head a,
+#mw-head li a {
+    color: #e8e8e8;
+}
+
+#mw-head .mw-portlet-personal li a:hover {
+    color: #ffffff;
+}
