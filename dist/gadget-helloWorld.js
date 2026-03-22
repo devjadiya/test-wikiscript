@@ -10,7 +10,6 @@
  * (User subpage — affects only your own account, not sitewide)
  *
  * Source: https://github.com/Dev-Jadiya/test-wikiscript
- * Version: 1.0.0
  */
 
 ( function () {
