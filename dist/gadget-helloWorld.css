@@ -1,25 +1,27 @@
 /**
- * gadget-helloWorld.css
- * ---------------------
- * Styles for the WikiScriptSync demo greeting banner.
- *
- * Safe to deploy to: User:Dev_Jadiya/gadget-helloWorld.css
- * Source: https://github.com/Dev-Jadiya/test-wikiscript
- * Version: 1.0.0
+ * gadget-helloWorld.css (FIXED)
+ * -----------------------------
+ * Styles for WikiScriptSync banner
  */
 
 #wikiscriptsync-hello {
-    background-color: #eaf3ff;
+    background: #eaf3ff;
     border: 1px solid #3366cc;
     border-left: 4px solid #3366cc;
-    border-radius: 2px;
-    padding: 0.5rem 0.875rem;
-    margin-bottom: 1rem;
-    font-size: 0.875rem;
+    border-radius: 4px;
+    padding: 10px 14px;
+    margin: 10px 0;
+    font-size: 14px;
     color: #202122;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+}
+
+#wikiscriptsync-hello .wss-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
 }
 
 #wikiscriptsync-hello a {
@@ -28,11 +30,13 @@
 
 #wikiscriptsync-hello-close {
     margin-left: auto;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
     color: #54595d;
-    font-size: 0.875rem;
-    padding: 0.125rem 0.375rem;
-    border-radius: 2px;
-    transition: background 0.1s;
+    padding: 4px 8px;
+    border-radius: 3px;
 }
 
 #wikiscriptsync-hello-close:hover {
