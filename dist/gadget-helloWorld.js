@@ -36,7 +36,7 @@
         var banner = document.createElement( 'div' );
         banner.id = 'wikiscriptsync-hello';
         banner.innerHTML =
-            '<strong>WikiScriptSync demo</strong> — ' +
+            '<strong>WikiScriptSync demo version 1.0</strong> — ' +
             'This banner is injected by <a href="https://script-publisher.toolforge.org/" ' +
             'target="_blank" rel="noopener">WikiScriptSync</a> gadget-helloWorld.js. ' +
             '<button id="wikiscriptsync-hello-close" ' +
