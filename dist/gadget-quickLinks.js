@@ -39,7 +39,7 @@
         mw.util.addPortletLink(
             'p-personal',
             'https://script-publisher.toolforge.org/',
-            'Script Publisher Tool',
+            'Script Publisher',
             'pt-script-publisher',
             'Publish gadgets from GitHub/GitLab to this wiki',
             null,
