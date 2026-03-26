@@ -43,7 +43,7 @@
                 'Changes here only affect your own account. ' +
                 'If this is a gadget file managed by ' +
                 '<a href="https://script-publisher.toolforge.org/" ' +
-                'target="_blank" rel="noopener">WikiScriptSync</a>, ' +
+                'target="_blank" rel="noopener">WikiScriptSync Tool</a>, ' +
                 'consider updating the source repository instead.'
             );
 
