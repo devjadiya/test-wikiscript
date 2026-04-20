@@ -21,7 +21,7 @@
 
         banner.innerHTML =
             '<div class="wss-content">' +
-                '<strong>WikiScriptSync</strong> — Hello! Your gadget is working fine testing ✔ working fine testing ✔'' +
+                '<strong>WikiScriptSync</strong> — Hello! Your gadget is working fine testing ✔' +
                 '<button id="wikiscriptsync-hello-close" aria-label="Close">✕</button>' +
             '</div>';
 
