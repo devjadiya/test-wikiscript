@@ -2,7 +2,7 @@
  * gadget-helloWorld.js (FIXED)
  * ----------------------------
  * Injects a dismissible banner for logged-in users.
- * V 1.0
+ * V 1.0.0
  */
 
 ( function () {
